@@ -1,0 +1,23 @@
+{
+	"name": "xavierfaucon/bravoids",
+	"type": "library",
+	"description": "Converts Ids (base10) to Hashids (base50 or 62)",
+	"keywords": ["hashids","ids","base10","base50","base62"],
+	"homepage": "https://github.com/xavierfaucon/BravoIds",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Xavier Faucon",
+			"email": "xavier.faucon@ieseg.fr"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+	"autoload": {
+		"psr-4": { "xavierfaucon\\BravoIds\\": "src/xavierfaucon/BravoIds" }
+	}
+}
